@@ -1,3 +1,11 @@
+.button {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+.buttonColor {
+  background-color: white;
+  border: 1px solid grey;
+}
 html,
 body,
 div,
@@ -107,6 +115,7 @@ header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: 0;
   width: 40%;
 }
 header nav a {
@@ -129,6 +138,7 @@ header nav .current {
   height: 26rem;
   margin: 0 auto;
   display: flex;
+  flex-direction: 0;
   justify-content: center;
   align-items: center;
   margin-bottom: 3.5%;
@@ -156,6 +166,7 @@ header nav .current {
   width: 50%;
   display: flex;
   flex-direction: column;
+  justify-content: 0;
   align-items: center;
 }
 .artists-container .artist img {
