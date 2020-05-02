@@ -1,4 +1,193 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+img:hover {
+  opacity: 80%;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6%;
+  margin-bottom: 4%;
+}
+header nav {
+  font-size: 1.5rem;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40%;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+  padding-left: 0%;
+}
+header nav .current {
+  font-weight: bold;
+}
+.title-container {
+  background-color: whitesmoke;
+  background-image: url("/assets/home.png");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  background-size: 200% 215%;
+  opacity: 80%;
+  width: 90%;
+  height: 26rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.5%;
+}
+.title-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-container div p {
+  font-size: 300%;
+  font-weight: bold;
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.artists-container {
+  border-top: 1px solid lightgrey;
+  padding-top: 2.5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.artists-container .artist {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.artists-container .artist img {
+  width: 270px;
+  height: 200px;
+  border-radius: 5px;
+}
+.artists-container .artist a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.artists-container .artist .bio {
+  font-size: 0.9rem;
+  text-align: center;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  width: 95%;
+}
+.title-container div a {
+  padding: 3%;
+  padding-left: 11%;
+  padding-right: 11%;
+  margin-top: 3%;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px black;
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
