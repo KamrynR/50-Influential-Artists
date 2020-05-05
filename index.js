@@ -232,11 +232,11 @@ console.log(artists[8]);
  * For example, if getArtistByIndex is invoked with the inventory and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
-function getArtistByIndex(id, name) {
-  name2 = artists[id].name; 
+function getArtistByIndex(id, array) {
+  let name2 = array[id].name; 
 	return `The artist at index ${id} is ${name2}.`;
 }
-  console.log(getArtistByIndex(2, name));
+  console.log(getArtistByIndex(2, artists));
   /**
 
 
